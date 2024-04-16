@@ -1,0 +1,15 @@
+
+#nav {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-text{
+    background-color: black;
+    color: white;
+}
+
+*{
+    background-color: green;   
+}

@@ -1,15 +1,15 @@
-import TodoForm from "./components/TodoForm"
-import TodoList from "./components/TodoList"
-import TodoItem from "./components/TodoItem"
+import NavBar from "./components/NavBar"
+import SignUp from "./components/SignUp"
+import SignIn from "./components/SignIn"
 
 export default function App() {
   return (
     <>
-    <TodoForm/>
+      <NavBar/>
 
-    <TodoList/>
+      <SignUp/>
 
-    <TodoItem/>
+      <SignIn/>
     </>
   )
 }
