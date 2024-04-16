@@ -13,3 +13,10 @@
 *{
     background-color: green;   
 }
+
+#land-div {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
