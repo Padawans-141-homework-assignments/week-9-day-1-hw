@@ -1,3 +1,6 @@
+*{
+    background-color: green;   
+}
 
 #nav {
     background-color: green;
@@ -10,13 +13,19 @@
     color: white;
 }
 
-*{
-    background-color: green;   
-}
 
 #land-div {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+#game-div {
+    text-align: center;
+}
+
+#class-btn {
+    color: white;
+    background-color: black;
 }
