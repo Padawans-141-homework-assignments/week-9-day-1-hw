@@ -3,6 +3,7 @@ import SignUp from "./components/SignUp"
 import SignIn from "./components/SignIn"
 import LandingPage from "./components/LandingPage"
 import GameClassPicker from "./components/GameClassPicker"
+import GameAlliancePicker from "./components/GameAlliancePicker"
 
 export default function App() {
   return (
@@ -10,6 +11,8 @@ export default function App() {
       <NavBar/>
 
       <GameClassPicker/>
+
+      <GameAlliancePicker/>
 
       <SignUp/>
 
