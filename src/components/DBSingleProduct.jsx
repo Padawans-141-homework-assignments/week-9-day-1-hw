@@ -36,6 +36,7 @@ export default function DBSingleProduct() {
             setIsError(true);
             // set the state of the error text to this since it error'd
             setErrorText('There was a Problem getting the Product you requested :(');
+            console.error("Couldn't get the product :(")
         }
 
     }
