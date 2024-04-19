@@ -43,10 +43,11 @@ export default function DBSingleProduct() {
 
   return (
     <>
+    <br/>
     <div id='game-div'>
     <input id='input' className='sp' placeholder='What product ID do you need?'></input>
     {/* Start the function when the button is clicked */}
-    <button id='input' onClick={getSingleProduct}>Get Product</button>
+    <button id='input' onClick={getSingleProduct} className='game-col'>Get Product</button>
     </div>
     <br/>
     <div>

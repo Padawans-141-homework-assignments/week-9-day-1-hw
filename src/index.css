@@ -13,6 +13,11 @@
     color: white;
 }
 
+.game-col {
+    background-color: black;
+    color: white;
+}
+
 
 #land-div {
     max-width: fit-content;

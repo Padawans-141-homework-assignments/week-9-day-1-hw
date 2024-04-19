@@ -22,9 +22,11 @@ export default function DBProducts() {
 
   return (
     <>
-    <div id='game-div'>
+    <br/>
+    <div id='game-div' >
+        Need all info from the catalogue? --{'>     '}
         {/* Calls the function on click */}
-        <button onClick={getDBData}>Get All Users</button>
+        <button onClick={getDBData} className='game-col'>Get All Users</button>
     </div>
     <div>
         {/* Maps through the data and displays it on screen */}
