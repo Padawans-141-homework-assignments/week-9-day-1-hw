@@ -40,3 +40,9 @@
 .sp {
     background-color: white;
 }
+
+.nav-space {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}

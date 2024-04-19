@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 import React from 'react'
 
-
 export default function GameClassPicker() {
 
     let classes = ['Monk', 'Rogue', 'Mage', 'Archer', 'Ranger', 'Berserker', 'Sorcerer',
