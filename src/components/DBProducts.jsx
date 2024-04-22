@@ -11,7 +11,20 @@ export default function DBProducts() {
         // if its successfull set state to the new data
         if(res.ok) {
             const data = await res.json();
-            setUserData(data);
+
+            //UNCOMMENT TO ALLOW ADDING TO DATA//////////////////////////
+            // creates empty array by copying empty state singleData
+            // let copy = userData;
+
+            // pushes the data from the response into the empty array
+            // copy.push(data)
+
+            //assigns the current data in the array as the now current state
+            // setSingleData(data)
+            //////////////////////////////////////////////////////
+
+            //assigns the current data in the array as the now current state
+            setUserData(data)
         }
         // if not error out
         else
